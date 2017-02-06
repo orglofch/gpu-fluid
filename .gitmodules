@@ -1,0 +1,3 @@
+[submodule "GPU-Fluid-Dynamics/Utility"]
+	path = GPU-Fluid-Dynamics/Utility
+	url = https://github.com/orglofch/Utility.git
