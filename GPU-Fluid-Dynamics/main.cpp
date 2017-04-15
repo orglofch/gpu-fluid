@@ -172,7 +172,6 @@ void renderIndicators(GLuint vector_field, Colour colour) {
 }
 
 void advect() {
-	// TODO(orglofch): Do we only need one frame buffer?
 	glBindFramebuffer(GL_FRAMEBUFFER, state.advection_buffer);
 	glFramebufferTexture2D(GL_FRAMEBUFFER, GL_COLOR_ATTACHMENT0,
 		GL_TEXTURE_2D, state.colour_texture.back(), 0);
