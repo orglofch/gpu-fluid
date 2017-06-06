@@ -235,7 +235,7 @@ void calculateDivergence() {
 }
 
 void calculatePressure() {
-	int jacobi_iterations = 100;
+	int jacobi_iterations = 200;
 
 	// Re-zero the pressure texture.
 	GLfloat *pressure_data = new GLfloat[state.canvas_size.area() * 3]();

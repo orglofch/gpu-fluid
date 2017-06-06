@@ -15,7 +15,7 @@ void main()
 	float uB = texture2D(velocity_sampler, uv - e_y).y;
 	float uT = texture2D(velocity_sampler, uv + e_y).y;
 	
-	gl_FragData[0].x = -(e_x.x * (uR - uL) + e_y.y * (uT - uB)) / timestep;
+	gl_FragData[0].x = -2 * (e_x.x * (uR - uL) + e_y.y * (uT - uB)) / timestep;
 
 	// Add a y component so it can be rendered.
 	gl_FragData[0].y = gl_FragData[0].x * 20;
