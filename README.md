@@ -12,4 +12,6 @@ Additional Resources:
 
 ---
 
+https://www.youtube.com/watch?v=MNF_P_VKGoU
+
 ![example1](https://github.com/orglofch/GPU-Fluid-Dynamics/blob/master/images/example.png)
