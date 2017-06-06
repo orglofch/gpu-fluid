@@ -12,3 +12,4 @@ Additional Resources:
 
 ---
 
+![example1](https://github.com/orglofch/GPU-Fluid-Dynamics/blob/master/images/example.png)
